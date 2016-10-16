@@ -1,0 +1,16 @@
+<ion-view view-title="Home">
+  <ion-content class="padding" ng-controller="ExampleController">
+        </br>
+        </br>
+      <button class="button button-block" ng-click="scanBarcode()">Scan</button>
+
+  </ion-content>
+</ion-view>
+
+<script>
+  function handleOpenURL(url) {
+    setTimeout(function () {
+      alert("received: " + getParameterByName("amount",url));
+    }, 0);
+  }
+</script>
