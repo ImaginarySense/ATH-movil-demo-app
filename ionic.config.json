@@ -1,4 +1,6 @@
 {
-  "name": "payments",
-  "app_id": ""
+  "name": "paym",
+  "app_id": "",
+  "v2": true,
+  "typescript": true
 }

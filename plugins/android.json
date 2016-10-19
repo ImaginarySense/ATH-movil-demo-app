@@ -8,36 +8,34 @@
     },
     "installed_plugins": {
         "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.ionicframework.payments246496"
+            "PACKAGE_NAME": "com.ionicframework.paym295337"
         },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.ionicframework.payments246496"
+            "PACKAGE_NAME": "com.ionicframework.paym295337"
         },
         "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.ionicframework.payments246496"
+            "PACKAGE_NAME": "com.ionicframework.paym295337"
         },
         "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "com.ionicframework.payments246496"
+            "PACKAGE_NAME": "com.ionicframework.paym295337"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.ionicframework.payments246496"
+            "PACKAGE_NAME": "com.ionicframework.paym295337"
         },
         "ionic-plugin-keyboard": {
-            "PACKAGE_NAME": "com.ionicframework.payments246496"
-        },
-        "cordova-plugin-customurlscheme": {
-            "URL_SCHEME": "athmovil",
-            "ANDROID_SCHEME": " ",
-            "ANDROID_HOST": " ",
-            "ANDROID_PATHPREFIX": "/",
-            "PACKAGE_NAME": "com.ionicframework.payments246496"
-        },
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.ionicframework.payments246496"
+            "PACKAGE_NAME": "com.ionicframework.paym295337"
         },
         "phonegap-plugin-barcodescanner": {
-            "PACKAGE_NAME": "com.ionicframework.payments246496"
+            "CAMERA_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.ionicframework.paym295337"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-swift-support": {
+            "PACKAGE_NAME": "com.ionicframework.paym295337"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.ionicframework.paym295337"
+        }
+    }
 }

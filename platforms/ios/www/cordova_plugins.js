@@ -50,23 +50,6 @@ module.exports = [
         "runs": true
     },
     {
-        "file": "plugins/cordova-plugin-customurlscheme/www/ios/LaunchMyApp.js",
-        "id": "cordova-plugin-customurlscheme.LaunchMyApp",
-        "pluginId": "cordova-plugin-customurlscheme",
-        "clobbers": [
-            "window.plugins.launchmyapp"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-        "id": "cordova-plugin-inappbrowser.inappbrowser",
-        "pluginId": "cordova-plugin-inappbrowser",
-        "clobbers": [
-            "cordova.InAppBrowser.open",
-            "window.open"
-        ]
-    },
-    {
         "file": "plugins/phonegap-plugin-barcodescanner/www/barcodescanner.js",
         "id": "phonegap-plugin-barcodescanner.BarcodeScanner",
         "pluginId": "phonegap-plugin-barcodescanner",
@@ -84,9 +67,7 @@ module.exports.metadata =
     "cordova-plugin-statusbar": "2.2.0",
     "cordova-plugin-whitelist": "1.3.0",
     "ionic-plugin-keyboard": "2.2.1",
-    "cordova-plugin-customurlscheme": "4.2.0",
-    "cordova-plugin-inappbrowser": "1.5.0",
-    "phonegap-plugin-barcodescanner": "4.0.1"
+    "phonegap-plugin-barcodescanner": "6.0.2"
 }
 // BOTTOM OF METADATA
 });

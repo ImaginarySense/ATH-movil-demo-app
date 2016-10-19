@@ -47,32 +47,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-customurlscheme": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-customurlscheme@~4.2.0"
-        },
-        "is_top_level": true,
-        "variables": {
-            "URL_SCHEME": "athmovil"
-        }
-    },
-    "cordova-plugin-inappbrowser": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-inappbrowser@1.5.0"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-compat": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-compat"
-        },
-        "is_top_level": false,
-        "variables": {}
-    },
     "cordova-plugin-swift-support": {
         "source": {
             "type": "registry",
@@ -87,6 +61,16 @@
             "id": "phonegap-plugin-barcodescanner"
         },
         "is_top_level": true,
+        "variables": {
+            "CAMERA_USAGE_DESCRIPTION": " "
+        }
+    },
+    "cordova-plugin-compat": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-compat"
+        },
+        "is_top_level": false,
         "variables": {}
     }
 }
